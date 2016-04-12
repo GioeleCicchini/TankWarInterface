@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>angular bootstrap</title>
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" type="text/css" href="css/creareStrategia.css">
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.js"></script>
+  <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+
+</head>
+<body ng-app="TankWar">
+
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">TankWar</a>
+    </div>
+    <ul class="nav navbar-nav">
+               <li><a ng-href="#/Login">Login</a></li>
+                <li><a ng-href="#/">Home</a></li>
+               <li><a ng-href="#/CreareStrategia">CreareStrategia</a></li>
+               
+    </ul>
+  </div>
+</nav>
+
+
+      <div ng-view="">
+        
+      </div>
+</body>
+
+
+<script src="main.js"></script>
+  <script src="Controller/myCtrl.js"></script>
+  <script type="text/javascript" src="Controller/loginCtrl.js"></script>
+</html>

@@ -1,0 +1,35 @@
+.top{
+	background-color: #01579B;
+	color: white;
+}
+
+.button{
+	height: 50px;
+	width: 200px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+}
+.indietro{
+
+background-color: red;
+}
+.title{
+	font-size: 35px;
+	font-weight: bold;
+vertical-align: center;
+}
+.Salva{
+	background-color: green;
+}
+
+.NomeStrategia{
+	padding-top: 8px;
+	font-size: 25px;
+}
+
+.inputNome{
+
+	color:black;
+}
+
