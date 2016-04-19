@@ -1,5 +1,5 @@
 
-angular.module('TankWar', ['ngRoute'])
+angular.module('TankWar', ['ngRoute','ngDragDrop'])
 
 .config(function($routeProvider) {
 	$routeProvider
@@ -10,7 +10,7 @@ angular.module('TankWar', ['ngRoute'])
 	.when('/CreareStrategia',{
 
 		templateUrl : 'view/CreareStrategia.tpl',
-		controller : 'myCtrl'
+		controller : 'CreareStrategiaCtrl'
 	})
 	.when('/Login',{
 

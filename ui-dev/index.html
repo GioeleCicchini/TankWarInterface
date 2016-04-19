@@ -9,7 +9,14 @@
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-route/angular-route.js"></script>
   <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+  <script src="lib/angular-dragdrop/angular-dragdrop.min.js"></script>
+ 
 
+  <script src="main.js"></script>
+  <script src="Controller/CreareStrategiaCtrl.js"></script>
+  <script type="text/javascript" src="Controller/loginCtrl.js"></script>
 
 </head>
 <body ng-app="TankWar">
@@ -31,13 +38,11 @@
 </nav>
 
 
-      <div ng-view="">
+      <div ng-view="Home">
         
       </div>
 </body>
 
 
-<script src="main.js"></script>
-  <script src="Controller/myCtrl.js"></script>
-  <script type="text/javascript" src="Controller/loginCtrl.js"></script>
+
 </html>

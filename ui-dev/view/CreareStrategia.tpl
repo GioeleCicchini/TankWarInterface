@@ -24,3 +24,22 @@
 		</div>
 
 </div>
+
+<div class="col-lg-12" ng-controller="CreareStrategiaCtrl">
+
+	<div class="col-lg-6 strategiaZone" data-drop="true" qyoui-droppable style='height:50px; background-color:gray;'>
+
+
+		
+	</div>
+
+	<div class="col-lg-6 condizioniZone" >
+		<div ng-repeat="elem in condizioni">
+		<condizione nome="{{elem.nome}}" class="btn btn-primary" data-drag="true" jqyoui-draggable="{animate:true}" data-jqyoui-options="{revert: 'invalid'}" >
+			
+			
+		</condizione>
+		</div>
+	</div>
+	
+</div>
